@@ -56,9 +56,9 @@ export function CtaBanner() {
                 asChild
                 className="w-full sm:w-auto bg-transparent border-white/30 text-white hover:bg-white/10 hover:text-white h-12 md:h-14 px-6 md:px-8 text-sm md:text-base"
               >
-                <a href="tel:9843096892">
+                <a href="tel:669 985 0038">
                   <Phone className="mr-2 h-4 w-4 md:h-5 md:w-5" />
-                  984 309 6892
+                  669 985 0038
                 </a>
               </Button>
             </div>
