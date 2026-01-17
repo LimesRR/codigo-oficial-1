@@ -19,6 +19,7 @@ export function Footer() {
     <footer className="bg-foreground pt-12 md:pt-16 pb-6 md:pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 pb-8 md:pb-12 border-b border-white/10">
+          
           {/* Brand */}
           <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <Image
@@ -36,7 +37,9 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-semibold text-sm md:text-base mb-3 md:mb-4">{t.footer.quickLinks}</h4>
+            <h4 className="text-white font-semibold text-sm md:text-base mb-3 md:mb-4">
+              {t.footer.quickLinks}
+            </h4>
             <ul className="space-y-2 md:space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.key}>
@@ -53,7 +56,9 @@ export function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-white font-semibold text-sm md:text-base mb-3 md:mb-4">{t.services.title}</h4>
+            <h4 className="text-white font-semibold text-sm md:text-base mb-3 md:mb-4">
+              {t.services.title}
+            </h4>
             <ul className="space-y-2 md:space-y-3">
               {["CCTV", "Control de Acceso", "Alarmas", "Monitoreo 24/7"].map((service) => (
                 <li key={service}>
@@ -70,17 +75,23 @@ export function Footer() {
 
           {/* Contact */}
           <div className="col-span-2 sm:col-span-1">
-            <h4 className="text-white font-semibold text-sm md:text-base mb-3 md:mb-4">{t.footer.contactUs}</h4>
+            <h4 className="text-white font-semibold text-sm md:text-base mb-3 md:mb-4">
+              {t.footer.contactUs}
+            </h4>
             <ul className="space-y-2 md:space-y-3">
+              
+              {/* Phone */}
               <li>
                 <a
                   href="tel:+529841575319"
                   className="flex items-center gap-2 text-white/60 hover:text-primary transition-colors text-xs md:text-sm"
                 >
                   <Phone className="h-3.5 w-3.5 md:h-4 md:w-4" />
-                  669 985 0038
+                  +52 984 157 5319
                 </a>
               </li>
+
+              {/* Email */}
               <li>
                 <a
                   href="mailto:info@alarmax.com"
@@ -90,10 +101,19 @@ export function Footer() {
                   info@alarmax.com
                 </a>
               </li>
+
+              {/* Location 1 */}
               <li className="flex items-start gap-2 text-white/60 text-xs md:text-sm">
                 <MapPin className="h-3.5 w-3.5 md:h-4 md:w-4 flex-shrink-0 mt-0.5" />
                 Riviera Maya, Q. Roo
               </li>
+
+              {/* Location 2 */}
+              <li className="flex items-start gap-2 text-white/60 text-xs md:text-sm">
+                <MapPin className="h-3.5 w-3.5 md:h-4 md:w-4 flex-shrink-0 mt-0.5" />
+                Mazatlán, Sin.
+              </li>
+
             </ul>
           </div>
         </div>
