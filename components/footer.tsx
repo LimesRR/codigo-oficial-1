@@ -78,7 +78,7 @@ export function Footer() {
                   className="flex items-center gap-2 text-white/60 hover:text-primary transition-colors text-xs md:text-sm"
                 >
                   <Phone className="h-3.5 w-3.5 md:h-4 md:w-4" />
-                  +52 984 157 5319
+                  +52 669 985 0038
                 </a>
               </li>
               <li>
