@@ -112,7 +112,7 @@ export function ContactForm() {
                     href="tel:+529841575319"
                     className="text-muted-foreground hover:text-primary transition-colors text-base md:text-lg font-medium"
                   >
-                    +52 984 157 5319
+                    984 157 5319
                   </a>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export function ContactForm() {
                 <div>
                   <h4 className="font-semibold text-foreground text-sm md:text-base mb-1">{t.contact.emergency}</h4>
                   <a href="tel:+529841575319" className="text-primary font-bold text-base md:text-lg">
-                    +52 984 157 5319
+                    Un mantenimiento preventivo anual prolonga la vida útil del sistema hasta un 50%
                   </a>
                 </div>
               </div>
