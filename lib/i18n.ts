@@ -140,7 +140,7 @@ export const translations = {
       hours: "Horarios de Atención",
       hoursWeek: "Lunes - Viernes: 9:00 am - 6:00 pm",
       hoursSat: "Sábados: 9:00 am - 2:00 pm",
-      emergency: "Emergencias 24/7",
+      emergency: "Dato curioso",
     },
 
     // Footer section
