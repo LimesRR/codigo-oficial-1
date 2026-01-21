@@ -23,7 +23,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <Image
-              src="public/images/alarmax-20logo.avif"
+              src="public/images/logo-2.0.jpeg"
               alt="Alarmax"
               width={140}
               height={40}
