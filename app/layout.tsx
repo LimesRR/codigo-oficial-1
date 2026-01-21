@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "Soluciones en CCTV, alarmas, control de acceso y automatización. Más de 40 años protegiendo hogares y empresas en México.",
   icons: {
-    icon: "/favicon.ico", // Small icon shown in browser tab
+    icon: "images/logo-searchbar.jpeg", // Small icon shown in browser tab
     apple: "/apple-icon.png", // Icon used when site is saved to iPhone/iPad home screen
   },
 }
