@@ -24,76 +24,82 @@ export function MissionVision() {
             className="group relative p-6 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl
             bg-white border border-border
             hover:bg-gradient-to-br hover:from-primary hover:to-primary/80
-            transition-all duration-500 overflow-hidden"
+            transition-all duration-700 overflow-hidden"
           >
             <div className="absolute top-0 right-0 w-48 md:w-64 h-48 md:h-64
               bg-primary/10 rounded-full blur-3xl
               -translate-y-1/2 translate-x-1/2
-              opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              opacity-0 group-hover:opacity-100 transition-opacity duration-700"
             />
 
             <div className="relative">
               <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl
                 bg-primary/10 group-hover:bg-white/20
                 flex items-center justify-center mb-4 md:mb-6
-                transition-colors duration-500"
+                transition-colors duration-700"
               >
                 <Target className="h-6 w-6 md:h-8 md:w-8 text-primary group-hover:text-white transition-colors duration-500" />
               </div>
 
               <h3 className="text-xl md:text-2xl lg:text-3xl font-bold
                 text-foreground group-hover:text-white
-                mb-3 md:mb-4 transition-colors duration-500"
+                mb-3 md:mb-4 transition-colors duration-700"
               >
                 {t.about.mission}
               </h3>
 
               <p className="text-muted-foreground group-hover:text-white/80
                 leading-relaxed text-sm md:text-base lg:text-lg
-                transition-colors duration-500"
+                transition-colors duration-700"
               >
                 {t.about.missionText}
               </p>
             </div>
           </div>
 
-          {/* Vision */}
-          <div
-            className="group relative p-6 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl
-            bg-white border border-border
-            hover:border-primary/30
-            transition-all duration-500 overflow-hidden"
-          >
-            <div className="absolute top-0 right-0 w-48 md:w-64 h-48 md:h-64
-              bg-primary/10 rounded-full blur-3xl
-              -translate-y-1/2 translate-x-1/2
-              opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-            />
+{/* Vision */}
+<div
+  className="group relative p-6 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl
+  bg-white border border-border
+  hover:bg-gradient-to-br hover:from-primary hover:to-primary/80
+  transition-all duration-700 ease-out overflow-hidden"
+>
+  <div
+    className="absolute top-0 right-0 w-48 md:w-64 h-48 md:h-64
+    bg-primary/10 rounded-full blur-3xl
+    -translate-y-1/2 translate-x-1/2
+    opacity-0 group-hover:opacity-100
+    transition-opacity duration-700 ease-out"
+  />
 
-            <div className="relative">
-              <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl
-                bg-primary/10 group-hover:bg-primary
-                flex items-center justify-center mb-4 md:mb-6
-                transition-all duration-500"
-              >
-                <Eye className="h-6 w-6 md:h-8 md:w-8 text-primary group-hover:text-white transition-colors duration-500" />
-              </div>
+  <div className="relative">
+    <div
+      className="w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl
+      bg-primary/10 group-hover:bg-white/20
+      flex items-center justify-center mb-4 md:mb-6
+      transition-colors duration-700 ease-out"
+    >
+      <Eye className="h-6 w-6 md:h-8 md:w-8 text-primary group-hover:text-white transition-colors duration-700 ease-out" />
+    </div>
 
-              <h3 className="text-xl md:text-2xl lg:text-3xl font-bold
-                text-foreground group-hover:text-primary
-                mb-3 md:mb-4 transition-colors duration-500"
-              >
-                {t.about.vision}
-              </h3>
+    <h3
+      className="text-xl md:text-2xl lg:text-3xl font-bold
+      text-foreground group-hover:text-white
+      mb-3 md:mb-4 transition-colors duration-700 ease-out"
+    >
+      {t.about.vision}
+    </h3>
 
-              <p className="text-muted-foreground
-                leading-relaxed text-sm md:text-base lg:text-lg"
-              >
-                {t.about.visionText}
-              </p>
-            </div>
-          </div>
-        </div>
+    <p
+      className="text-muted-foreground group-hover:text-white/80
+      leading-relaxed text-sm md:text-base lg:text-lg
+      transition-colors duration-700 ease-out"
+    >
+      {t.about.visionText}
+    </p>
+  </div>
+</div>
+
 
         {/* Values */}
         <div>
