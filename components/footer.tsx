@@ -60,7 +60,7 @@ export function Footer() {
               {t.services.title}
             </h4>
             <ul className="space-y-2 md:space-y-3">
-              {["CCTV", "Control de Acceso", "Alarmas", "Monitoreo 24/7"].map((service) => (
+              {["Sistema de Alarmas", "CCTV", "Sistemas contra incendio", "Control de acceso"].map((service) => (
                 <li key={service}>
                   <Link
                     href="/servicios"
