@@ -27,7 +27,7 @@ export function Footer() {
               alt="Alarmax"
               width={140}
               height={40}
-              className="h-8 md:h-10 w-auto brightness-0 invert mb-3 md:mb-4"
+              className="h-8 md:h-10 w-auto mb-3 md:mb-4"
             />
             <div className="flex items-center gap-2 text-white/60">
               <Shield className="h-3.5 w-3.5 md:h-4 md:w-4" />
