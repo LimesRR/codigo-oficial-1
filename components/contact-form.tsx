@@ -136,9 +136,9 @@ export function ContactForm() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground text-sm md:text-base mb-1">{t.contact.emergency}</h4>
-                  <a href="tel:+529841575319" className="text-primary font-bold text-base md:text-lg">
+                  <p className="text-primary font-bold text-base md:text-lg">
                     Un mantenimiento preventivo anual prolonga la vida útil del sistema hasta un 50%
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>
