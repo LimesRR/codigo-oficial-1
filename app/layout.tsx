@@ -16,8 +16,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Alarmax | Líderes en Sistemas de Seguridad",
   description:
-    "Soluciones en CCTV, alarmas, control de acceso y automatización. Más de 30 años protegiendo hogares y empresas en México.",
-  generator: "v0.app",
+    "Soluciones en CCTV, alarmas, control de acceso y automatización. Más de 40 años protegiendo hogares y empresas en México.",
   icons: {
     icon: "/favicon.ico", // Small icon shown in browser tab
     apple: "/apple-icon.png", // Icon used when site is saved to iPhone/iPad home screen
