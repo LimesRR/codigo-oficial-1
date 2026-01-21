@@ -105,13 +105,13 @@ export function Footer() {
               {/* Location 1 */}
               <li className="flex items-start gap-2 text-white/60 text-xs md:text-sm">
                 <MapPin className="h-3.5 w-3.5 md:h-4 md:w-4 flex-shrink-0 mt-0.5" />
-                Riviera Maya, Q. Roo
+                Mazatlán, Sin.
               </li>
 
               {/* Location 2 */}
               <li className="flex items-start gap-2 text-white/60 text-xs md:text-sm">
                 <MapPin className="h-3.5 w-3.5 md:h-4 md:w-4 flex-shrink-0 mt-0.5" />
-                Mazatlán, Sin.
+                Riviera Maya, Q. Roo
               </li>
 
             </ul>
