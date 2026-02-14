@@ -40,7 +40,7 @@ export function ContactForm() {
     const message = formData.get("message") as string
 
     try {
-      console.log("[v0] Submitting form data to Firebase...")
+      console.log("Submitting form data to Firebase...")
       await submitContactForm({
         name,
         phone: phone || "",
@@ -49,10 +49,10 @@ export function ContactForm() {
         message: message || "",
         language,
       })
-      console.log("[v0] Form submitted successfully!")
+      console.log("Form submitted successfully!")
       setIsSubmitted(true)
     } catch (err) {
-      console.error("[v0] Error submitting form:", err)
+      console.error("Error submitting form:", err)
       setError(
         language === "es" ? "Error al enviar. Por favor intenta de nuevo." : "Error submitting. Please try again.",
       )
