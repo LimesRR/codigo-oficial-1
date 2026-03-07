@@ -1,5 +1,5 @@
 // ============================================================================
-// FIREBASE CONFIGURATION - Database connection for saving contact form data
+// FIREBASE CONFIGURATION - Database connection for saving contact form dataa
 // ============================================================================
 // This file connects the website to Firebase Firestore (Google's database)
 // When customers fill out the contact form, their information is saved here
