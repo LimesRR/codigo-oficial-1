@@ -22,8 +22,8 @@ export const translations = {
     hero: {
       tagline: "Más de 40 años de experiencia",
       badge: "Seguridad Electrónica en Mazatlán",
-      title: "Expertos en Seguridad Electrónica para Hoteles y Negocios en Mazatlán",
-      subtitle: "Soluciones integrales en CCTV, alarmas, control de acceso y automatización en Mazatlán y Sinaloa.",
+      title: "PROTECCIÓN RESIDENCIAL Y CORPORATIVA | MAZATLÁN",
+      subtitle: "Seguridad Inteligente Y Monitoreo 24/7 en Mazatlán y la Riviera Maya",
       cta: "Solicitar Cotización",
       secondary: "Ver Servicios",
     },
@@ -218,8 +218,8 @@ export const translations = {
     hero: {
       tagline: "Over 40 years of experience",
       badge: "Electronic Security in Mazatlán",
-      title: "Experts in Electronic Security for Hotels and Businesses in Mazatlán",
-      subtitle: "Comprehensive solutions in CCTV, alarms, access control and automation in Mazatlán and Sinaloa.",
+      title: "RESIDENTIAL AND CORPORATE PROTECTION | MAZATLÁN",
+      subtitle: "Smart Security and 24/7 Monitoring in Mazatlán and the Riviera Maya",
       cta: "Request Quote",
       secondary: "View Services",
     },
