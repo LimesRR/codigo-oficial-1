@@ -1,16 +1,16 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
-import { Montserrat } from "next/font/google"
+import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { ScrollToTop } from "@/components/scroll-to-top"
 import { WhatsAppStickyButton } from "@/components/whatsapp-sticky-button"
 import "./globals.css"
 
-// Montserrat: Primary font - Regular/Medium for body, Bold/Black for headings
-const montserrat = Montserrat({
+// Inter: Primary font - clean, readable for body and headings
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "900"],
-  variable: "--font-montserrat",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
   display: "swap",
 })
 
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
 }
 
-// Browser theme color - Deep Navy Blue brand color
+// Browser theme color - Primary blue #3B5DE7
 export const viewport: Viewport = {
-  themeColor: "#001F3F",
+  themeColor: "#3B5DE7",
 }
 
 // Main layout component that wraps all pages
@@ -51,7 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     // Main HTML wrapper - sets language to Spanish and enables smooth scrolling
-    <html lang="es" className={`scroll-smooth ${montserrat.variable}`}>
+    <html lang="es" className={`scroll-smooth ${inter.variable}`}>
       <body className="font-sans antialiased">
         {/* ScrollToTop: Automatically scrolls to top when navigating between pages */}
         <ScrollToTop />
