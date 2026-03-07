@@ -74,7 +74,7 @@ function MobileMenu({
       >
         {/* Menu Header */}
         <div className="flex items-center justify-between p-4 border-b" style={{ backgroundColor: "#ffffff" }}>
-          <Image src="/images/logo-2.0.jpeg" alt="Alarmax - Cámaras de seguridad y alarmas en Mazatlán Sinaloa" width={180} height={50} className="h-8 w-auto" />
+          <Image src="/images/logo-2.0.jpeg" alt="Alarmax" width={180} height={50} className="h-8 w-auto" />
           <button
             onClick={onClose}
             className="p-2 rounded-full hover:bg-gray-100 transition-colors"
@@ -176,7 +176,7 @@ export function Header() {
             <Link href="/" className="flex items-center gap-2 transition-transform hover:scale-105 duration-300">
               <Image
                 src="/images/logo-2.0.jpeg"
-                alt="Alarmax - Instalación de sistemas de seguridad en Mazatlán"
+                alt="Alarmax"
                 width={180}
                 height={50}
                 className="h-7 md:h-8 lg:h-10 w-auto transition-all duration-300"

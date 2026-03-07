@@ -53,6 +53,6 @@ export async function submitContactForm(data: {
   })
 
   // Log success message (visible in browser console for debugging)
-  console.log("Document written with ID:", docRef.id)
+  console.log("[v0] Document written with ID:", docRef.id)
   return docRef.id
 }

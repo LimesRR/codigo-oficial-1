@@ -21,23 +21,23 @@ export const translations = {
     // Hero section (main banner on home page)
     hero: {
       tagline: "Más de 40 años de experiencia",
-      badge: "Seguridad Electrónica en Mazatlán",
-      title: "PROTECCIÓN RESIDENCIAL Y CORPORATIVA | MAZATLÁN",
-      subtitle: "Seguridad Inteligente Y Monitoreo 24/7 en Mazatlán y la Riviera Maya",
+      badge: "Líderes en Sistemas de Seguridad",
+      title: "Protegemos lo que más importa",
+      subtitle: "Soluciones integrales en CCTV, alarmas, control de acceso y automatización.",
       cta: "Solicitar Cotización",
       secondary: "Ver Servicios",
     },
 
     // Services descriptions and features
     services: {
-      title: "Servicios de Seguridad Electrónica en Mazatlán",
-      subtitle: "Soluciones de seguridad adaptadas para hoteles, negocios turísticos y residencias en Mazatlán",
+      title: "Nuestros Servicios",
+      subtitle: "Soluciones de seguridad adaptadas a sus necesidades",
       viewAll: "Ver Todos los Servicios",
 
       // CCTV (Video surveillance cameras)
       cctv: {
         title: "CCTV",
-        description: "Vigilancia remota de su personal, bienes y situaciones de emergencia con grabación continua. Ideal para hoteles en Mazatlán, negocios en Zona Dorada y residencias en Sinaloa.",
+        description: "Vigilancia remota de su personal, bienes y situaciones de emergencia con grabación continua.",
         features: [
           "De HD a 4K",
           "Visión a color 24/7",
@@ -52,7 +52,7 @@ export const translations = {
       access: {
         title: "Control de Acceso",
         description:
-          "Control preciso de horarios de entrada y salida, restricción de áreas exclusivas e integración con CCTV. Ideal para hoteles en Mazatlán y negocios en Zona Dorada.",
+          "Control preciso de horarios de entrada y salida, restricción de áreas exclusivas e integración con CCTV.",
         features: ["Portones y barreras automatizados", "Monitoreo", "Biométricos", "Tarjetas RFID"],
       },
 
@@ -66,7 +66,7 @@ export const translations = {
       // Alarm Systems
       alarms: {
         title: "Sistemas de Alarmas",
-        description: "Sistemas versátiles con sensores personalizados para cubrir cada punto vulnerable. Protección para residencias en Sinaloa y seguridad para negocios turísticos en Mazatlán.",
+        description: "Sistemas versátiles con sensores personalizados para cubrir cada punto vulnerable.",
         features: [
           "Sensores de movimiento",
           "Contactos magnéticos",
@@ -80,7 +80,7 @@ export const translations = {
       // 24/7 Monitoring Center
       monitoring: {
         title: "Central de Monitoreo",
-        description: "Monitoreo 24/7, 365 días del año con tecnología de vanguardia. Atención inmediata para clientes en Mazatlán y Sinaloa.",
+        description: "Monitoreo 24/7, 365 días del año con tecnología de vanguardia y atención al cliente.",
         features: ["Respuesta inmediata", "Verificación de alarmas", "Despacho de emergencias", "App móvil"],
       },
 
@@ -124,9 +124,9 @@ export const translations = {
     // Contact form and contact page
     contact: {
       title: "Déjanos tu Contacto",
-      subtitle: "Un asesor especializado te contactará para ofrecerte la mejor solución de seguridad en Mazatlán",
-      heroTitle: "Seguridad Electrónica en Mazatlán",
-      heroSubtitle: "Contáctanos para alarmas, CCTV y protección de hoteles, negocios y residencias en Mazatlán, Sinaloa",
+      subtitle: "Un asesor especializado te contactará para ofrecerte la mejor solución de seguridad",
+      heroTitle: "Estamos para Servirte",
+      heroSubtitle: "Contáctanos y protege lo que más importa",
       name: "Nombre completo",
       email: "Correo electrónico (opcional)",
       phone: "Teléfono (opcional)",
@@ -154,8 +154,8 @@ export const translations = {
     // About Us page
     about: {
       title: "Sobre Nosotros",
-      heroTitle: "Más de 40 Años Protegiendo Mazatlán y Sinaloa",
-      heroSubtitle: "Líderes en soluciones de seguridad electrónica para hoteles, negocios y residencias en la región",
+      heroTitle: "Más de 40 Años Protegiendo",
+      heroSubtitle: "Líderes en soluciones de seguridad electrónica en la región",
       mission: "Nuestra Misión",
       missionText:
         "Ofrecer soluciones integrales de seguridad electrónica para su hogar, comercio e industria, supervisado por un equipo profesional, comprometido, utilizando la última tecnología.",
@@ -176,7 +176,7 @@ export const translations = {
       title: "¿Por qué Alarmax?",
       subtitle: "Razones para confiar en nosotros",
       experience: "Experiencia Comprobada",
-      experienceText: "Más de 40 años protegiendo hogares, hoteles en Mazatlán y negocios turísticos en Zona Dorada y Sinaloa",
+      experienceText: "Más de 40 años protegiendo hogares y negocios en la Riviera Maya",
       technology: "Tecnología de Punta",
       technologyText: "Equipos de última generación de marcas reconocidas mundialmente",
       support: "Soporte Continuo",
@@ -187,8 +187,8 @@ export const translations = {
 
     // Call-to-action banner
     cta: {
-      title: "¿Listo para proteger tu negocio o residencia en Mazatlán?",
-      subtitle: "Solicita una cotización sin compromiso para alarmas y CCTV en Mazatlán, Sinaloa",
+      title: "¿Listo para proteger lo que más importa?",
+      subtitle: "Solicita una cotización sin compromiso",
       button: "Contáctanos Ahora",
     },
 
@@ -198,11 +198,11 @@ export const translations = {
       founded: "Fundación",
       foundedText: "Iniciamos operaciones en la península de Yucatán",
       growth: "Expansión",
-      growthText: "Presencia en Mazatlán, Zona Dorada y Riviera Maya",
+      growthText: "Abrimos oficinas en la Riviera Maya",
       tech: "Innovación",
       techText: "Implementamos sistemas de monitoreo digital",
       today: "Actualidad",
-      todayText: "Líderes en seguridad electrónica en Mazatlán y Sinaloa con más de 1,500 clientes satisfechos",
+      todayText: "Líderes regionales con más de 1,500 clientes satisfechos",
     },
   },
 
@@ -217,19 +217,19 @@ export const translations = {
     },
     hero: {
       tagline: "Over 40 years of experience",
-      badge: "Electronic Security in Mazatlán",
-      title: "RESIDENTIAL AND CORPORATE PROTECTION | MAZATLÁN",
-      subtitle: "Smart Security and 24/7 Monitoring in Mazatlán and the Riviera Maya",
+      badge: "Leaders in Security Systems",
+      title: "We Protect What Matters Most",
+      subtitle: "Comprehensive solutions in CCTV, alarms, access control and automation.",
       cta: "Request Quote",
       secondary: "View Services",
     },
     services: {
-      title: "Electronic Security Services in Mazatlán",
-      subtitle: "Security solutions tailored for hotels, tourist businesses and residences in Mazatlán",
+      title: "Our Services",
+      subtitle: "Security solutions tailored to your needs",
       viewAll: "View All Services",
       cctv: {
         title: "CCTV",
-        description: "Remote surveillance of your staff, assets and emergency situations with continuous recording. Ideal for hotels in Mazatlán, businesses in Zona Dorada and residences in Sinaloa.",
+        description: "Remote surveillance of your staff, assets and emergency situations with continuous recording.",
         features: [
           "HD to 4K",
           "24/7 Color Vision",
@@ -241,7 +241,7 @@ export const translations = {
       },
       access: {
         title: "Access Control",
-        description: "Precise control of entry and exit times, restricted areas and CCTV integration. Ideal for hotels in Mazatlán and businesses in Zona Dorada.",
+        description: "Precise control of entry and exit times, restricted areas and CCTV integration.",
         features: ["Automated gates and barriers", "Monitoring", "Biometrics", "RFID Cards"],
       },
       fire: {
@@ -251,7 +251,7 @@ export const translations = {
       },
       alarms: {
         title: "Alarm Systems",
-        description: "Versatile systems with customized sensors to cover every vulnerable point. Protection for residences in Sinaloa and security for tourist businesses in Mazatlán.",
+        description: "Versatile systems with customized sensors to cover every vulnerable point.",
         features: [
           "Motion sensors",
           "Magnetic contacts",
@@ -263,7 +263,7 @@ export const translations = {
       },
       monitoring: {
         title: "Monitoring Center",
-        description: "24/7 monitoring, 365 days a year with cutting-edge technology. Immediate attention for customers in Mazatlán and Sinaloa.",
+        description: "24/7 monitoring, 365 days a year with cutting-edge technology and customer service.",
         features: ["Immediate response", "Alarm verification", "Emergency dispatch", "Mobile app"],
       },
       networks: {
@@ -297,9 +297,9 @@ export const translations = {
     },
     contact: {
       title: "Leave Your Contact",
-      subtitle: "A specialized advisor will contact you to offer the best security solution in Mazatlán",
-      heroTitle: "Electronic Security in Mazatlán",
-      heroSubtitle: "Contact us for alarms, CCTV and protection for hotels, businesses and residences in Mazatlán, Sinaloa",
+      subtitle: "A specialized advisor will contact you to offer the best security solution",
+      heroTitle: "We're Here to Serve You",
+      heroSubtitle: "Contact us and protect what matters most",
       name: "Full name",
       email: "Email address (optional)",
       phone: "Phone number (optional)",
@@ -323,8 +323,8 @@ export const translations = {
     },
     about: {
       title: "About Us",
-      heroTitle: "Over 40 Years Protecting Mazatlán and Sinaloa",
-      heroSubtitle: "Leaders in electronic security solutions for hotels, businesses and residences in the region",
+      heroTitle: "Over 40 Years Protecting",
+      heroSubtitle: "Leaders in electronic security solutions in the region",
       mission: "Our Mission",
       missionText:
         "To offer comprehensive electronic security solutions for your home, business and industry, supervised by a professional, committed team, using the latest technology.",
@@ -343,7 +343,7 @@ export const translations = {
       title: "Why Alarmax?",
       subtitle: "Reasons to trust us",
       experience: "Proven Experience",
-      experienceText: "Over 40 years protecting homes, hotels in Mazatlán and tourist businesses in Zona Dorada and Sinaloa",
+      experienceText: "Over 40 years protecting homes and businesses in the Riviera Maya",
       technology: "Cutting-Edge Technology",
       technologyText: "Latest generation equipment from world-renowned brands",
       support: "Continuous Support",
@@ -352,8 +352,8 @@ export const translations = {
       teamText: "Highly trained staff with updated certifications",
     },
     cta: {
-      title: "Ready to protect your business or residence in Mazatlán?",
-      subtitle: "Request a no-obligation quote for alarms and CCTV in Mazatlán, Sinaloa",
+      title: "Ready to protect what matters most?",
+      subtitle: "Request a no-obligation quote",
       button: "Contact Us Now",
     },
     timeline: {
@@ -361,11 +361,11 @@ export const translations = {
       founded: "Founded",
       foundedText: "We started operations in the Yucatan Peninsula",
       growth: "Expansion",
-      growthText: "Presence in Mazatlán, Zona Dorada and Riviera Maya",
+      growthText: "We opened offices in the Riviera Maya",
       tech: "Innovation",
       techText: "We implemented digital monitoring systems",
       today: "Today",
-      todayText: "Leaders in electronic security in Mazatlán and Sinaloa with over 1,500 satisfied customers",
+      todayText: "Regional leaders with over 1,500 satisfied customers",
     },
   },
 }

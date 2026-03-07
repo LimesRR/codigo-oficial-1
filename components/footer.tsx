@@ -24,7 +24,7 @@ export function Footer() {
           <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <Image
               src="images/logo-2.0.jpeg"
-              alt="Alarmax - Sistema de alarmas para hoteles en Mazatlán Sinaloa"
+              alt="Alarmax"
               width={140}
               height={40}
               className="h-8 md:h-10 w-auto mb-3 md:mb-4"
