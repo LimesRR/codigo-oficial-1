@@ -93,10 +93,10 @@ export function ContactForm() {
                 <div>
                   <h4 className="font-semibold text-foreground text-sm md:text-base mb-1">{t.contact.office}</h4>
                   <a
-                    href="tel:9850038"
+                    href="tel:6699850038"
                     className="text-muted-foreground hover:text-primary transition-colors text-base md:text-lg font-medium"
                   >
-                    985 0038
+                    669 985 0038
                   </a>
                 </div>
               </div>
