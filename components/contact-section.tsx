@@ -43,8 +43,8 @@ export function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-background mb-1">{t.contact.office}</h4>
-                  <a href="tel:9850038" className="text-background/70 hover:text-primary transition-colors">
-                    985 0038
+                  <a href="tel:6699850038" className="text-background/70 hover:text-primary transition-colors">
+                    669 985 0038
                   </a>
                 </div>
               </div>
